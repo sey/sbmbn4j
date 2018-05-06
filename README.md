@@ -1,3 +1,4 @@
+```bash
 docker run \
   --detach \
   --name=sbmbn4j-neo4j \
@@ -6,3 +7,4 @@ docker run \
   --publish=7474:7474 \
   --publish=7687:7687 \
   neo4j:3.3.5
+```
